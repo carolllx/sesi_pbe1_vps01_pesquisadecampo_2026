@@ -67,4 +67,4 @@ GET http://localhost:3001/ia
 ![Colocar](colocar.png)
 
 ### Excluir
-![Excluir](excluir.png)
+![Excluir](delete.png)
