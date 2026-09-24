@@ -58,13 +58,13 @@ GET http://localhost:3001/ia
 ![Index](index.png)
 
 ### Obter
-![Obter](obter.png)
+![Obter](get.png)
 
 ### Post
 ![Post](post.png)
 
 ### Colocar
-![Colocar](colocar.png)
+![Colocar](put.png)
 
 ### Excluir
 ![Excluir](delete.png)
