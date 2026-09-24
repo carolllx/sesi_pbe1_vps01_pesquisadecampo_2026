@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "sistema": "Assistente de atendimento atualizado",
+        "sistema": "Assistente de atendimento",
         "tipo": "empresa",
-        "finalidade": "Responder dúvidas e orientar clientes",
+        "finalidade": "Responder dúvidas de clientes",
         "tecnologia": "IA generativa",
         "nivel_risco": "Médio",
         "possui_revisao_humana": true
@@ -27,12 +27,21 @@
         "possui_revisao_humana": true
     },
     {
-        "id": 6,
-        "sistema": "Chatbot escolar",
-        "tipo": "escola",
-        "finalidade": "Tirar dúvidas dos alunos",
+        "id": 4,
+        "sistema": "Assistente virtual",
+        "tipo": "pessoa",
+        "finalidade": "Organizar tarefas e responder perguntas",
         "tecnologia": "IA generativa",
         "nivel_risco": "Baixo",
+        "possui_revisao_humana": false
+    },
+    {
+        "id": 5,
+        "sistema": "Análise de documentos",
+        "tipo": "empresa",
+        "finalidade": "Analisar e organizar documentos",
+        "tecnologia": "Processamento de linguagem natural",
+        "nivel_risco": "Médio",
         "possui_revisao_humana": true
     }
 ]
