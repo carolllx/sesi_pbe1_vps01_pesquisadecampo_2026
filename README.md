@@ -1,49 +1,85 @@
-# API de Usos de Inteligência Artificial
+# Pesquisa de Campo - Banco de Usos de IA
 
-## Sobre o projeto
+Exemplo simples de back-end para cadastrar e consultar alguns usos de Inteligência Artificial usando JSON.
 
-Este projeto foi desenvolvido para praticar conceitos básicos de Programação Back-End com JavaScript e Express.
+## Tecnologias
 
-A API permite cadastrar, consultar, atualizar e excluir informações sobre diferentes usos de Inteligência Artificial.
+* **Node.js**
+* **JavaScript**
+* **Express**
+* **VS Code**
+* **Thunder Client**
+* **HTML**
+* **JSON**
 
-## Tecnologias utilizadas
+## Como executar
 
-- JavaScript
-- Node.js
-- Express
-- Thunder Client
-- Git e GitHub
+### 1. Clone este repositório
 
-## Estrutura dos dados
+Abra o repositório no GitHub e faça o clone para o seu computador.
 
-Cada uso possui as seguintes informações:
+### 2. Abra no VS Code
 
-- `id` — identificador do uso
-- `sistema` — nome do sistema de IA
-- `tipo` — tipo de uso
-- `finalidade` — para que a IA é utilizada
-- `tecnologia` — tecnologia utilizada
-- `nivel_risco` — nível de risco
-- `possui_revisao_humana` — informa se existe revisão humana
+Abra a pasta do projeto no **Visual Studio Code**.
 
-## Como executar o projeto
+### 3. Instale as dependências
 
-### 1. Instalar as dependências
-
-No terminal, dentro da pasta do projeto:
+No terminal, digite:
 
 ```bash
 npm install
+```
 
-## Print dos testes e exemplo de requisições
-- get
-![Create](get.png)
-- READ ALL
-![Read](./prints/read.png)
-- buscar
-![Find](./prints/find.png)
-- UPDATE
-![Update](./prints/update.png)
-- deletar
-![Delete](./prints/delete.png)
+### 4. Inicie o servidor
+
+```bash
+node server.js
+```
+
+O servidor ficará disponível em:
+
+```text
+http://localhost:3001
+```
+
+## Testando a API
+
+Os testes podem ser feitos pelo **Thunder Client**.
+
+### GET — listar
+
+```text
+GET http://localhost:3001/ia
+```
+
+### GET — buscar por ID
+
+```text
+GET http://localhost:3001/ia/1
+```
+
+### POST — cadastrar
+
+```text
+POST http://localhost:3001/ia
+```
+
+Exemplo de JSON:
+
+```json
+{
+  "nome": "ChatGPT",
+  "uso": "Auxiliar em estudos e pesquisas"
+}
+```
+
+## Imagens do projeto
+
+### Testes no Thunder Client
+
+![Teste GET no Thunder Client](prints/get.png)
+
+![Teste POST no Thunder Client](prints/post.png)
+
+### Página H
 
