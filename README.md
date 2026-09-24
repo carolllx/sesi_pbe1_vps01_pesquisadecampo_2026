@@ -52,7 +52,7 @@ Os testes podem ser feitos pelo **Thunder Client**.
 GET http://localhost:3001/ia
 ```
 
-## Imagens do projeto
+## Print dos testes
 
 ### Index
 ![Index](index.png)
