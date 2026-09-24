@@ -1,0 +1,1 @@
+# sesi_bcd_vps01_estoqueloja_2026

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "sistema": "Assistente de atendimento atualizado",
+        "tipo": "empresa",
+        "finalidade": "Responder dúvidas e orientar clientes",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 2,
+        "sistema": "Corretor de textos",
+        "tipo": "escola",
+        "finalidade": "Ajudar alunos na escrita de textos",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 3,
+        "sistema": "Reconhecimento facial",
+        "tipo": "empresa",
+        "finalidade": "Controle de acesso de funcionários",
+        "tecnologia": "Visão computacional",
+        "nivel_risco": "Alto",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 6,
+        "sistema": "Chatbot escolar",
+        "tipo": "escola",
+        "finalidade": "Tirar dúvidas dos alunos",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    }
+]
