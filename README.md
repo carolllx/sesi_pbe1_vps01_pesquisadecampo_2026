@@ -51,3 +51,20 @@ Os testes podem ser feitos pelo **Thunder Client**.
 ```text
 GET http://localhost:3001/ia
 ```
+
+## Imagens do projeto
+
+### Index
+![Index](index.png)
+
+### Obter
+![Obter](obter.png)
+
+### Post
+![Post](post.png)
+
+### Colocar
+![Colocar](colocar.png)
+
+### Excluir
+![Excluir](excluir.png)
