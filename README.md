@@ -49,7 +49,7 @@ Os testes podem ser feitos pelo **Thunder Client**.
 ### GET — obter
 
 ```text
-GET http://localhost:3001/ia
+GET http://localhost:3001/usos
 ```
 
 ## Print dos testes
