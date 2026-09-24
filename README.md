@@ -34,3 +34,16 @@ No terminal, dentro da pasta do projeto:
 
 ```bash
 npm install
+
+## Print dos testes e exemplo de requisições
+- get
+![Create](get.png)
+- READ ALL
+![Read](./prints/read.png)
+- buscar
+![Find](./prints/find.png)
+- UPDATE
+![Update](./prints/update.png)
+- deletar
+![Delete](./prints/delete.png)
+
