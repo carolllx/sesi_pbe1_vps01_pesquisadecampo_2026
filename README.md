@@ -46,40 +46,8 @@ http://localhost:3001
 
 Os testes podem ser feitos pelo **Thunder Client**.
 
-### GET — listar
+### GET — obter
 
 ```text
 GET http://localhost:3001/ia
 ```
-
-### GET — buscar por ID
-
-```text
-GET http://localhost:3001/ia/1
-```
-
-### POST — cadastrar
-
-```text
-POST http://localhost:3001/ia
-```
-
-Exemplo de JSON:
-
-```json
-{
-  "nome": "ChatGPT",
-  "uso": "Auxiliar em estudos e pesquisas"
-}
-```
-
-## Imagens do projeto
-
-### Testes no Thunder Client
-
-![Teste GET no Thunder Client](prints/get.png)
-
-![Teste POST no Thunder Client](prints/post.png)
-
-### Página H
-
